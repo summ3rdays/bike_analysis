@@ -1,7 +1,50 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Final_Python_Project</title>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.0/dist/mini-default.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+	</head>
+	<body>	
+
+	<section class="section">
+		<div class="container content">
+			<h1 class="title"> Анализ датасета "Los Angeles Metro Bike Share Trip Data"  из проекта Los Angeles Open Data. </h1>
+			<p> Федорова Екатерина, HCI </p>
+			<div class="container">
+				<p> В этот датасет входят данные о поездках на арендованных велосипедах. Данные являются обезличенными, и сообщают нам о длительности маршрута, его датах и времени, виде поездки, виде тарифного плана (клиента) и координатах поездки за период с июля 2016 г. по апрель 2017 г. Данные получены из открытого источника при помощи API Socrata и Kaggle и предварительно очищены от лишних данных, тестовых и пустых значений. </p>
+				<p> Основная задача анализа и цель исследования - найти взаимосвязь между показателями поездок и установить что влияет на ее характер в численных значениях. Определить, как повысить эффективность данного бизнеса, увеличить прибыль и сократить издержки. </p>
+				<p> <i> Исследовательские задачи: </i> </p>
+				<p><ul>
+<li> Какая средняя длительность поездки на велосипеде?</li>
+<li>Какие тарифные планы пользуются большей популярностью у покупателей?</li>
+<li>Есть ли какой-то велосипед, который берут чаще? (чтобы узнать какой нужно заменить или отремонтировать)</li>
+</ul>
+<p> <i> Для анализа использовались следующие переменные: </i> </p>
+				<p><ul>
+<li>Duration - длительность поездки в секундах, была переведена в минуты</li>
+<li>Plan duration - количество дней по плану, приобретенному владельцем карты</li>
+<li>Bike ID - уникальный идентификатор велосипеда</li>
+<li>Trip Route Category - тип маршрута, в одну сторону или туда-обратно</li>
+<li>Start time - время начала поездки</li>
+<li>End time - время конца поездки</li>
+<li>Starting Station ID - точка А маршрута</li>
+<li>Ending Station ID - точка Б маршрута, если значения А и Б совпадают, то это был маршрут туда-обратно, в противном случае в одну сторону</li>
+</ul>		
+	</div>
+			<div class="container">
+				<ol>
+					<li><a href="https://github.com/summ3rdays/bike_analysis/blob/master/FinalReport_FedorovaEkaterina_BicycleTrip.ipynb" target="_blank"> Посмотреть отчет </a></li>
+					<li><a href="metro-bike-share-trip-data.csv" target="_blank">Скачать данные</a></li>
+					</li>
+					<li><a href="https://github.com/summ3rdays/bike_analysis" target="_blank">Открыть репозиторий</a></li>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</body>
 </html>
