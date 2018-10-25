@@ -20,5 +20,5 @@
 - Ending Station ID - точка Б маршрута, если значения А и Б совпадают, то это был маршрут туда-обратно, в противном случае в одну сторону
 
 
-[Посмотреть на анализ данных](../blob/master/FinalReport_FedorovaEkaterina_BicycleTrip.ipynb)
+[Посмотреть на анализ данных](../master/FinalReport_FedorovaEkaterina_BicycleTrip.ipynb)
 ```
